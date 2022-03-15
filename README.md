@@ -10,3 +10,15 @@ Sign up for Twitter Developer Account from this site - https://developer.twitter
 Enter the necessary fields and await for email confirmation.
 Click on Create an app
 Enter the details and keep safe the access tokens generated.
+
+you can create new variable and then assign them the generated keys
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
+
+here like this 
+auth = tweepy.OAuthHandler(consumer_key,consumer_secret) 
+auth.set_access_token(acess_token,acess_token_secret)
+
+Don't forget to set these credentials
